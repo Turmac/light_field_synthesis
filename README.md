@@ -1,11 +1,12 @@
 # Synthesizing Light Field From a Single Image with Variable MPI and Two Network Fusion (SIGGRAPH Asia 2020)
 
-This is the code for the SIGGRAPH Asia 2020 paper.
+This is the code for the SIGGRAPH Asia 2020 paper.  
 Paper page: https://people.engr.tamu.edu/nimak/Papers/SIGAsia2020_LF/index.html
 
 ## Environment
 This code has been tested under Windows 10, Python 3.7.7, CUDA 10.1  
 Required libraries:  
+<pre>
 matplotlib            3.2.1  
 numpy                 1.16.6  
 opencv-python         4.2.0.34  
@@ -17,6 +18,7 @@ tensorboardX          2.0
 torch                 1.5.0+cu101  
 torchfile             0.1.0  
 torchvision           0.6.0+cu101  
+</pre>
 
 ## Usage
 1. Download the testting data at https://drive.google.com/drive/folders/1hsHruwHIEuVQWfSlrgOSGlPrruWHdwqm?usp=sharing
