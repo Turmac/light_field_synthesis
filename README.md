@@ -28,10 +28,10 @@ torchvision           0.6.0+cu101
 1. Download the testting data at https://drive.google.com/drive/folders/1hsHruwHIEuVQWfSlrgOSGlPrruWHdwqm?usp=sharing
 2. Extract the data under the data folder
 3. Run:
-   > python light_field_synthesis.py
+   > python light_field_synthesis.py  
 4. Check the result:
-   > cd results
-   > python npy2lf_video8.py
+   > cd results  
+   > python npy2lf_video8.py  
 
 The code can synthesize from 2D image, or synthesize 15 by 15 light field with minor change.  
 To test on your data, please use the Deeplens model to predict the depth:  
