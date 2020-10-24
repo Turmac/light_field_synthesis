@@ -4,19 +4,19 @@ This is the code for the SIGGRAPH Asia 2020 paper.
 Paper page: https://people.engr.tamu.edu/nimak/Papers/SIGAsia2020_LF/index.html
 
 ## Environment
-This code has been tested under Windows 10, Python 3.7.7, CUDA 10.1
-Required libraries:
-matplotlib            3.2.1
-numpy                 1.16.6
-opencv-python         4.2.0.34
-Pillow                7.1.2
-scikit-image          0.17.2
-scikit-learn          0.23.1
-scipy                 1.4.1
-tensorboardX          2.0
-torch                 1.5.0+cu101
-torchfile             0.1.0
-torchvision           0.6.0+cu101
+This code has been tested under Windows 10, Python 3.7.7, CUDA 10.1  
+Required libraries:  
+matplotlib            3.2.1  
+numpy                 1.16.6  
+opencv-python         4.2.0.34  
+Pillow                7.1.2  
+scikit-image          0.17.2  
+scikit-learn          0.23.1  
+scipy                 1.4.1  
+tensorboardX          2.0  
+torch                 1.5.0+cu101  
+torchfile             0.1.0  
+torchvision           0.6.0+cu101  
 
 ## Usage
 1. Download the testting data at https://drive.google.com/drive/folders/1hsHruwHIEuVQWfSlrgOSGlPrruWHdwqm?usp=sharing
@@ -27,16 +27,16 @@ torchvision           0.6.0+cu101
    > cd results
    > python npy2lf_video8.py
 
-The code can synthesize from 2D image, or synthesize 15 by 15 light field with minor change.
-To test on your data, please use the Deeplens model to predict the depth:
+The code can synthesize from 2D image, or synthesize 15 by 15 light field with minor change.  
+To test on your data, please use the Deeplens model to predict the depth:  
 https://github.com/scott89/deeplens_eval
 
-To train the model, please download:
-Standford Light field dataset: http://lightfields.stanford.edu/mvlf/
-Our Light field dataset: Coming soon
+To train the model, please download:  
+Standford Light field dataset: http://lightfields.stanford.edu/mvlf/  
+Our Light field dataset: Coming soon  
 
 <h1>Citation</h1>
-If this work is helpful in your research. Please cite:
+If this work is helpful in your research. Please cite:  
 
 ```
 @inproceedings{Li2020LF,
