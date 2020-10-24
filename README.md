@@ -3,7 +3,7 @@
 This is the code for the SIGGRAPH Asia 2020 paper.  
 Paper page: https://people.engr.tamu.edu/nimak/Papers/SIGAsia2020_LF/index.html
 
-<p style="align:center">
+<p align="center">
     <img src='https://user-images.githubusercontent.com/5975007/97067709-e3b42600-1585-11eb-9b53-90e405f3e0d8.gif'/>
 </p>
 
