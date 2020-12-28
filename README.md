@@ -7,6 +7,11 @@ Paper page: https://people.engr.tamu.edu/nimak/Papers/SIGAsia2020_LF/index.html
     <img src='https://user-images.githubusercontent.com/5975007/97067709-e3b42600-1585-11eb-9b53-90e405f3e0d8.gif'/>
 </p>
 
+## Our Light Field Dataset
+We introduce a large Light Field dataset which contains over 2,000 light fields on general scene. This dataset is captured around TAMU campus.
+https://drive.google.com/file/d/1oHywOJAAYm8YrSH5mDubjTAwN8jrCC9y/view?usp=sharing  
+
+
 ## Environment
 This code has been tested under Windows 10, Python 3.7.7, CUDA 10.1  
 Required libraries:  
@@ -39,7 +44,7 @@ https://github.com/scott89/deeplens_eval
 
 To train the model, please download:  
 Standford Light field dataset: http://lightfields.stanford.edu/mvlf/  
-Our Light field dataset: Coming soon  
+Our Light field dataset: https://drive.google.com/file/d/1oHywOJAAYm8YrSH5mDubjTAwN8jrCC9y/view?usp=sharing   
 
 <h1>Citation</h1>
 If this work is helpful in your research. Please cite:  
